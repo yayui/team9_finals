@@ -57,7 +57,7 @@ String pwd = request.getParameter("pass");
         <table>
           <center>
             <h1 id='' style="color:white">選單</h1>
-            <input type="button" style="width:150px;height:60px;font-size:25px;" onclick="window.open('pk.jsp?uname=<%=userid%>','_self')" value="對戰" class="ui inverted teal button"/>
+            <input type="button" style="width:150px;height:60px;font-size:25px;" onclick="window.open('card.jsp?uname=<%=userid%>','_self')" value="對戰" class="ui inverted teal button"/>
             <input type="button" style="width:150px;height:60px;font-size:25px;" onclick="showdata('card')" value="卡片" class="ui inverted teal button" data-toggle="modal" data-target="#achieve"/></br></br>
             <input type="button" style="width:150px;height:60px;font-size:25px;" onclick="showdata('achieve')" value="成就" class="ui inverted teal button" data-toggle="modal" data-target="#achieve" />
             <input type="button" style="width:150px;height:60px;font-size:25px;" onclick="showdata('person')" value="個人" class="ui inverted teal button" data-toggle="modal" data-target="#achieve" /></br></br>
