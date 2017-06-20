@@ -134,7 +134,7 @@ else{
       <button class="ui inverted violet button" style="width:130px;height:50px;font-size:23px;margin-top:3vh;" onclick="defend();">DEF</button>
     </div>
     <div id="pk_button2">
-      <button class="ui inverted gray button" style="width:180px;height:50px;font-size:21px;" onclick="window.open('main1.jsp','_self')">返回主畫面</button>
+      <button class="ui inverted gray button" style="width:180px;height:50px;font-size:21px;" onclick="window.open('main1.jsp?uname=<%=userid%>','_self')">返回主畫面</button>
     </div>
     <script>
       // var AI = [aidef(), aiatt()];
