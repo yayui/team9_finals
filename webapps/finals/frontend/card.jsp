@@ -110,7 +110,7 @@ else{
       
     <%
       }
-      <a href="main1.jsp?uname=<%=userid%>" class="btn btn-primary btn-lg active" role="button">返回</a>
+      
       rs.close();
       st.close();
      } }
@@ -119,5 +119,6 @@ else{
         }
         %>
     </div>
+    <a href="main1.jsp?uname=<%=userid%>" class="btn btn-primary btn-lg active" role="button">返回</a>
   </body>
 </html>
