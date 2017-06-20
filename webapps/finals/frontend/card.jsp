@@ -107,6 +107,7 @@ else{
             </div>
           </div>
         </div>
+      <a href="main1.jsp?ID=<%=ID%>&uname=<%=userid%>" class="btn btn-primary btn-lg active" role="button">出戰</a>
     <%
       }
       rs.close();
