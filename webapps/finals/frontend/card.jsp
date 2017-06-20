@@ -102,7 +102,7 @@ else{
                 <p>防禦力：<%=defense%></p>
                 <p>稀有度：<%=rarity%></p>
                 <p>卡片效果：<%=effect%></p>
-                <a href="pk.jsp?ID=<%=ID%>" class="btn btn-primary btn-lg active" role="button">出戰</a>
+                <a href="pk.jsp?ID=<%=ID%>&uname=<%=userid%>" class="btn btn-primary btn-lg active" role="button">出戰</a>
               </div>
             </div>
           </div>
