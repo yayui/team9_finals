@@ -1,0 +1,147 @@
+#opponent {
+  position: fixed;
+  left:0;
+  top:0;
+  width:62%;
+  height:35%;
+}
+#player {
+  position: fixed;
+  right:0;
+  bottom: 0;
+  width:62%;
+  height:35%;
+}
+#record {
+  position: fixed;
+  left:10px;
+  bottom: 0;
+  width:30%;
+  height:30%;
+}
+#opn_person {
+  position: fixed;
+  left:10px;
+  top:10px;
+  width:100px;
+  height:100px;
+}
+#plr_person {
+  position: fixed;
+  right:10px;
+  bottom:10px;
+  width:100px;
+  height:100px;
+}
+#opn_name {
+  position: fixed;
+  left:20px;
+  top:120px;
+  width:75px;
+  height:20px;
+}
+#plr_name {
+  position: fixed;
+  right:20px;
+  bottom:120px;
+  width:75px;
+  height:20px;
+}
+#opn_life {
+  position: fixed;
+  left:10px;
+  top:180px;
+  width:120px;
+  height:60px;
+  border-style:double;
+  border-color: white;
+  background: linear-gradient(#616130,#E8E8D0);
+}
+#plr_life {
+  position: fixed;
+  right:10px;
+  bottom:180px;
+  width:120px;
+  height:60px;
+  border-style:double;
+  border-color: white;
+  background: linear-gradient(#616130,#E8E8D0);
+}
+#pk_button {
+  position: fixed;
+  right:150px;
+  bottom:150px;
+  width:150px;
+  height:150px;
+}
+#pk_button2 {
+  position: fixed;
+  right:20px;
+  top:20px;
+  width:150px;
+  height:75px;
+}
+#opn_out {
+  position: fixed;
+  left:38%;
+  top:28%;
+  background-color: blue;
+  width:139px;
+  height:205px;
+}
+#plr_out {
+  position: fixed;
+  right:38%;
+  bottom:28%;
+  background-color: blue;
+  width:139px;
+  height:205px;
+}
+#opn_cards, #opn_card1, #opn_card2, #opn_card3, #opn_card4, #opn_tomb {
+  position: fixed;
+  top:15px;
+  width:80px;
+  height:118px;
+}
+#plr_cards, #plr_card1, #plr_card2, #plr_card3, #plr_card4, #plr_tomb {
+  position: fixed;
+  bottom:15px;
+  width:80px;
+  height:118px;
+}
+#opn_cards {
+  left:130px;
+}
+#plr_cards {
+  right:130px;
+}
+#opn_card1 {
+  left:230px;
+}
+#plr_card1 {
+  right:230px;
+}
+#opn_card2 {
+  left:325px;
+}
+#plr_card2 {
+  right:325px;
+}
+#opn_card3 {
+  left:420px;
+}
+#plr_card3 {
+  right:420px;
+}
+#opn_card4 {
+  left:515px;
+}
+#plr_card4 {
+  right:515px;
+}
+#opn_tomb {
+  left:660px;
+}
+#plr_tomb {
+  right:660px;
+}
