@@ -126,7 +126,6 @@ out.println("角色名稱"+rolename+"角色血量"+HP+"角色價錢"+pricerole);
       </div>
     </div>
   </div>
-<a href="main1.jsp?uname=<%=userid%>" class="btn btn-primary btn-lg active" role="button">返回</a>
 <%
 }
 }
